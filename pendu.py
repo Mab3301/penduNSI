@@ -12,3 +12,4 @@ def dico():
     response = requests.get(url)        
     liste = response.text.splitlines()
     mot = random.choice(liste)
+    print(mot)
